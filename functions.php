@@ -234,8 +234,22 @@ genesis_register_sidebar( array(
 genesis_register_sidebar( array(
 	'id'          => 'front-page-7',
 	'name'        => __( 'Front Page 7', 'altitude' ),
-	'description' => __( 'This is the front page 7 section.', 'altitude' ),
+    'description' => __( 'This is the front page 7 section.', 'altitude' ),
+) );
+genesis_register_sidebar( array(
+    'id'        => 'sticky-footer',
+    'name'      => __( 'Sticky Footer', 'altitude' ),
+    'description' => __( 'This is the sticky footer section.', 'altitude' ),
 ) );
 
 //* Add Field Label Visibility
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
+
+add_action( 'genesis_after', 'krasno_do_sticky_footer' );
+
+function krasno_do_sticky_footer() {
+    genesis_widget_area( 'sticky-footer', array(
+        'before'    => '<div id="sticky-footer" class="sticky-footer"><div class="' . altitude_widget_area_class( 'sticky-footer' ) . '"><div class="wrap">',
+        'after'     => '</div></div></div>',
+    ) );
+}

@@ -40,6 +40,9 @@ body .gform_wrapper {
     text-align:center;
     padding: .5em 0;
 }
+.sidebar-primary .widget {
+    padding: 1em;
+}
 
 @media only screen and (max-width: 800px) {
     .sticky-footer {

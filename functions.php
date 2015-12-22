@@ -236,3 +236,7 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Front Page 7', 'altitude' ),
 	'description' => __( 'This is the front page 7 section.', 'altitude' ),
 ) );
+
+
+//* Add Field Label Visibility
+add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );

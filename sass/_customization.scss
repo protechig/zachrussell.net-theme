@@ -22,6 +22,16 @@
 .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
     width: 98%;
 }
+
+body .gform_wrapper {
+    margin: 0;
+    li.hidden_label input,
+    .gform_footer {
+        margin-top: 0;
+        padding: .25em;
+    }
+}
+
 .sticky-footer {
     background: #333;
     color: white;

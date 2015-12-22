@@ -1785,3 +1785,23 @@ Media Queries
 
 .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
   width: 98%; }
+
+.sticky-footer {
+  background: #333;
+  color: white;
+  font-weight: 800;
+  z-index: 99; }
+
+@media only screen and (max-width: 800px) {
+  .sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; }
+    .sticky-footer .textwidget {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: .5em 0;
+      font-size: .8em; }
+      .sticky-footer .textwidget a.button {
+        padding: 10px; } }

@@ -74,7 +74,7 @@ function altitude_css() {
 		.widget .button {
 			border-color: %1$s;
 		}
-        .front-page-2 .gform-widget {
+        .front-page-2 .gform_widget {
             border: 1px solid %1$s;
         }
 		', $color ) : '';

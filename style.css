@@ -1765,22 +1765,18 @@ Media Queries
   .image-section h2,
   .solid-section h2 {
     font-size: 40px; } }
-.site-header,
-.site-header.dark,
-.featured-section .site-header {
-  background: #4CAF50; }
-  .site-header .site-title a,
-  .site-header .genesis-nav-menu a,
-  .site-header.dark .site-title a,
-  .site-header.dark .genesis-nav-menu a,
-  .featured-section .site-header .site-title a,
-  .featured-section .site-header .genesis-nav-menu a {
-    text-shadow: 1px 1px 2px #1e1e1e;
-    font-weight: 800; }
-  .site-header .wrap,
-  .site-header.dark .wrap,
-  .featured-section .site-header .wrap {
-    border-bottom: none; }
+.site-header .site-title a,
+.site-header .genesis-nav-menu a,
+.site-header.dark .site-title a,
+.site-header.dark .genesis-nav-menu a,
+.featured-section .site-header .site-title a,
+.featured-section .site-header .genesis-nav-menu a {
+  text-shadow: 1px 1px 2px #1e1e1e;
+  font-weight: 800; }
+.site-header .wrap,
+.site-header.dark .wrap,
+.featured-section .site-header .wrap {
+  border-bottom: none; }
 
 .widget .button {
   text-shadow: 1px 1px 2px #1e1e1e; }

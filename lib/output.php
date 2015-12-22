@@ -37,9 +37,9 @@ function altitude_css() {
 	}
 
 	$css .= ( altitude_customizer_get_default_accent_color() !== $color ) ? sprintf( '
-        .altitude-blue .site-header, 
-        .altitude-blue .site-header.dark, 
-        .altitude-blue .featured-section .site-header {
+        .site-header, 
+        .site-header.dark, 
+        .featured-section .site-header {
             background-color: %1$s;
 
         }
